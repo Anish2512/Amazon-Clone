@@ -137,7 +137,7 @@ class AdminServices {
           );
 
         } catch (e) {
-
+            showSnackbar(context, e.toString());
         }
       }
 }
